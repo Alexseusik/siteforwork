@@ -1,21 +1,24 @@
-.body {
-    background: linear-gradient(-45deg, #FFFFFF, #01147A, #018DE9, #C33424);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-}
+/*.body {*/
+/*    background: linear-gradient(-45deg, #FFFFFF, #01147A, #018DE9, #C33424);*/
+/*    background-size: 400% 400%;*/
+/*    animation: gradient 15s ease infinite;*/
+/*    height: 100%;*/
+/*}*/
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+/*@keyframes gradient {*/
+/*    0% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*    50% {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*}*/
+
+
+/* ------------ HEADER ------------- */
 header {
     padding-bottom: 50px;
 }
@@ -33,6 +36,9 @@ header {
     justify-content: center;
     text-align: center;
 }
+
+
+/* --------------------- MAIN ---------------------- */
 .carousel_item {
     width: 854px;
     height: 480px;
@@ -102,8 +108,56 @@ header {
 .cta:active {
     transform: scale(0.96);
 }
+
+
+/* ---------------- ABOUT ------------------ */
 .h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 45px;
+}
+.about_text {
+    padding-bottom: 45px;
+}
+
+/* ---------------- VOLOUNTER ------------------ */
+.volounters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    flex-direction: row;
+    margin-bottom: 20px;
+    border: none;
+}
+.btn-primary {
+    background-color: rgba(33, 61, 25, 0.5);
+    border-color: rgba(33, 61, 25, 0.5);
+    width: 100%;
+    color: inherit;
+}
+.card-img-top {
+    width: 25%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+}
+.btn-primary:hover {
+    background-color: #2a3d24;
+    border-color: #2a3d24;
+}
+
+/* ---------------- PARTNER ------------------ */
+.partners{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+}
+.card-par{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
