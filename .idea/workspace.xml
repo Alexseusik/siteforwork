@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ecd28ea5-f613-40f1-a439-4877bcee47f3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
->>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-<<<<<<< HEAD
-    &quot;last_opened_file_path&quot;: &quot;/Users/alexseyhnibida/Desktop/scamsite&quot;,
-=======
     &quot;last_opened_file_path&quot;: &quot;D:/siteforwork&quot;,
->>>>>>> origin/main
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -66,16 +59,24 @@
       <workItem from="1653833957976" duration="22000" />
       <workItem from="1653918189892" duration="674000" />
       <workItem from="1653918888377" duration="4608000" />
-<<<<<<< HEAD
-      <workItem from="1654387984370" duration="694000" />
-=======
       <workItem from="1654268081057" duration="4237000" />
       <workItem from="1654590204197" duration="4259000" />
->>>>>>> origin/main
+      <workItem from="1654695639004" duration="3545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
