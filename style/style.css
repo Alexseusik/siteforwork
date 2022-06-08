@@ -19,8 +19,15 @@
 
 
 /* ------------ HEADER ------------- */
-header {
-    padding-bottom: 50px;
+.header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: start;
+    z-index: 1000;
 }
 .container {
     background-color: white;
@@ -28,13 +35,16 @@ header {
 .gerb {
     width: 170px;
     height: 170px;
-    margin-left: 30px;
 }
 .title {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    text-align: center;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
 }
 
 
@@ -45,6 +55,7 @@ header {
 }
 .main {
     padding-bottom: 40px;
+    margin-top: 200px;
 }
 .help {
     margin-top: 40px;
