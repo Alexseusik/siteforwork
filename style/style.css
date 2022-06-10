@@ -1,4 +1,6 @@
-
+body {
+    background-color: #e3e3e3;
+}
 /* ------------ HEADER ------------- */
 .header {
     width: 100%;
@@ -10,9 +12,6 @@
     justify-content: space-between;
     z-index: 1000;
     background-color: lightgrey;
-}
-.container {
-    background-color: white;
 }
 .gerb {
     width: 150px;
@@ -101,7 +100,7 @@
 }
 .cta:hover:before {
     width: 100%;
-    background: #2a3d24;
+    background: linear-gradient(90deg, rgba(213,43,16,1) 0%, rgba(213,43,16,1) 33%, rgba(0,57,166,1) 33%, rgba(0,57,166,1) 66%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
 }
 .cta:hover svg {
     transform: translateX(0);
@@ -136,6 +135,7 @@
     flex-direction: row;
     margin-bottom: 20px;
     border: none;
+    background-color: #e3e3e3;
 }
 .btn-primary {
     background-color: rgba(33, 61, 25, 0.5);
